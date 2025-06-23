@@ -1,0 +1,35 @@
+<?php
+echo '<body style="background: linear-gradient(90deg, rgba(7, 174, 234, 1.000) 0.000%, rgba(43, 245, 152, 1.000) 100.000%);">';
+echo '<!-- Admin Panel HTML Codes Will Be Written Here(Starts)-->';
+echo '<div class="container-fluid">';
+echo '<div class="row" style="padding-top: 10%;">';
+echo '<div class="col-md-4"></div>';
+echo '<div class="col-md-4" style="text-align: center; background-color: white; border-radius: 20px; padding: 10px;">';
+echo '<div class="row">';
+echo '<div class="col-md-12" style="padding-bottom: 10px;"></div><img src="assets/img/sewa.png" alt="Image Description" height="100"></div>';
+echo '';
+echo '';
+echo '<div class="col-md-12"><span style="font-size: 18px; font-weight: 100;">Forgot Password</span></div>';
+echo '<div class="col-md-12">';
+echo '<form>';
+echo '<div class="row">';
+echo '<div class="col-md-12" style="text-align: left; font-size: 14px; font-weight: 200; padding: 20px 20px 10px 20px;">';
+echo '<label>Your Email ID</label>';
+echo '<input type="text" name="useremail" placeholder="Your Registered Email ID" class="form-control">';
+echo '</div>';
+echo '';
+echo '<div class="col-md-12" style="text-align: center; font-size: 14px; font-weight: 200; padding: 20px 20px 10px 20px;">';
+echo '<a href="authenticate.html" class="btn btn-warning">Submit Now</a>';
+echo '</div>';
+echo '<div class="col-md-12" style="text-align: center; font-size: 14px; font-weight: 200; padding: 0px 20px 10px 20px;">';
+echo '';
+echo '</div>';
+echo '</div>';
+echo '</form>';
+echo '</div>';
+echo '</div></div>';
+echo '<div class="col-md-4"></div>';
+echo '</div>';
+echo '</div>';
+echo '';
+?>
